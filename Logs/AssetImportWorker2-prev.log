@@ -1,0 +1,585 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 15770 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aldri" at "2026-01-09T04:43:36.8733781Z"
+Date: 2026-01-09T04:43:36Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/aldri/Major Project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60459
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/aldri/Major Project
+C:/Users/aldri/Major Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [25864]  Target information:
+
+Player connection [25864]  * "[IP] 192.168.0.1 [Port] 0 [Flags] 2 [Guid] 1859846735 [EditorId] 1859846735 [Version] 1048832 [Id] WindowsEditor(7,ImAluminium) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25864]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1859846735 [EditorId] 1859846735 [Version] 1048832 [Id] WindowsEditor(7,ImAluminium) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25864]  * "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 1859846735 [EditorId] 1859846735 [Version] 1048832 [Id] WindowsEditor(7,ImAluminium) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25864] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25864] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 10.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aldri/Major Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7885 MB
+    Driver:   31.0.12046.27001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004581 seconds.
+- Loaded All Assemblies, in  0.635 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 1186ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (238ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              b0b6511f42b24adfa70954403c81dbf5
+  Correlation Id:          8be5b6454b9a08a85ff9cb0f6c147233
+  External correlation Id: 6989781351887424465
+  Machine Id:              l0EhpGW4SrtGiNS3MlV682PN5Ns=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aldri" (connect: 0.00s, validation: 0.00s, handshake: 2.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aldri-notifications" at "2026-01-09T04:43:39.1218017Z"
+[Licensing::Module] Licensing Background thread has ended after 2.25s
+[Licensing::Module] Licensing is initialized (took 0.28s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968360284224-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.077 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1846ms
+	BeginReloadAssembly (487ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3859 unused Assets / (1.0 MB). Loaded Objects now: 4442.
+Memory consumption went from 93.3 MB to 92.2 MB.
+Total: 9.245600 ms (FindLiveObjects: 0.868700 ms CreateObjectMapping: 0.459300 ms MarkObjects: 6.391900 ms  DeleteObjects: 1.524200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147457.952606 seconds.
+  path: Assets/MinimalPolyFree/Documents/Manual.md
+  artifactKey: Guid(15014d217aee9418a8c1cee09507a7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalPolyFree/Documents/Manual.md using Guid(15014d217aee9418a8c1cee09507a7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67eb9a1437045ff5e5d9d1382243c590') in 0.0331664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.290 seconds
+Domain Reload Profiling: 1956ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1092ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (762ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3857 unused Assets / (1.0 MB). Loaded Objects now: 4447.
+Memory consumption went from 94.2 MB to 93.2 MB.
+Total: 20.854700 ms (FindLiveObjects: 1.317100 ms CreateObjectMapping: 0.832300 ms MarkObjects: 15.891900 ms  DeleteObjects: 2.808600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 355.907956 seconds.
+  path: Assets/MinimalPolyFree/Textures/MP_Female_A1_Bottoms_100_navy.png
+  artifactKey: Guid(75fd05993677a4f6fa9130ad269944ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/MP_Female_A1_Bottoms_100_navy.png using Guid(75fd05993677a4f6fa9130ad269944ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6281ddef69ea18250128f13fc13b10db') in 0.1351522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MinimalPolyFree/Models/MP_Female_A1F.fbx
+  artifactKey: Guid(8ac04026a218e489eaa74e3fa3d02d10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Models/MP_Female_A1F.fbx using Guid(8ac04026a218e489eaa74e3fa3d02d10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '927132dd22500ea57ac2b8355dc644f1') in 0.0671898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MinimalPolyFree/Materials/Woman/Female_A1_HeadBody.mat
+  artifactKey: Guid(2ac7070e7d4e843f09f35bbe4439a1cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Woman/Female_A1_HeadBody.mat using Guid(2ac7070e7d4e843f09f35bbe4439a1cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fbff81df4fa448cc43c29fdb08b7372') in 0.0146586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/MinimalPolyFree/Prefabs/MP_Male_A1F Man.prefab
+  artifactKey: Guid(087c658005d534e9d820022711ea696d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Prefabs/MP_Male_A1F Man.prefab using Guid(087c658005d534e9d820022711ea696d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a75007adf51576feafe633db84a07dba') in 0.0254537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 186
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MinimalPolyFree/Textures/HeadBody_Female_A1_EB1_S2.png
+  artifactKey: Guid(15ad74f9a1ca048179167c82e0638571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/HeadBody_Female_A1_EB1_S2.png using Guid(15ad74f9a1ca048179167c82e0638571) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b5fec17692e4143159f82b9c6a42101') in 0.0115802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/MinimalPolyFree/Materials/Woman
+  artifactKey: Guid(b18057934b8ac48569887ffbe615bdd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Woman using Guid(b18057934b8ac48569887ffbe615bdd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec371fdbf49e51a389ae1c1303ed8b52') in 0.0041777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MinimalPolyFree/Textures/Hair.png
+  artifactKey: Guid(b89c063cbfb7640f7aa596a7f4e65ccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/Hair.png using Guid(b89c063cbfb7640f7aa596a7f4e65ccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fa11a576578dece3c445fec2f9e21b2') in 0.0101635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/MinimalPolyFree/Materials/Woman/Eye_Type1.mat
+  artifactKey: Guid(e6236a78f2fcb46b3bc53ec58b91e304) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Woman/Eye_Type1.mat using Guid(e6236a78f2fcb46b3bc53ec58b91e304) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef48cc16067e1aeb1c6f88d3f73f2adc') in 0.0061567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MinimalPolyFree/Materials/Man
+  artifactKey: Guid(29632b63aae784dcba66053d98e9dfa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Man using Guid(29632b63aae784dcba66053d98e9dfa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02c5b31267b4afa5761d175a660d148c') in 0.0037677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/MinimalPolyFree/Animations/AnimationController.controller
+  artifactKey: Guid(4585227c2f2c642009cc90bdb4880d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Animations/AnimationController.controller using Guid(4585227c2f2c642009cc90bdb4880d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19dcb8c6bd93dd5dacf7cb7d9d943010') in 0.0165927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MinimalPolyFree/Materials/Hair.mat
+  artifactKey: Guid(f39f0d7750e9f4ecebe1814a5214dbf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Hair.mat using Guid(f39f0d7750e9f4ecebe1814a5214dbf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b5e12fecd8358aa095a7bebce47c8ac') in 0.0051525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/MinimalPolyFree/Textures/Eye_Type1_F1_S2.png
+  artifactKey: Guid(40e33a60122ab47f88d601aebfa8774e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/Eye_Type1_F1_S2.png using Guid(40e33a60122ab47f88d601aebfa8774e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e4e90dbf33afa489a382c3d4fa2af34') in 0.0207327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MinimalPolyFree/Materials/Man/Glasses.mat
+  artifactKey: Guid(74627e308ce8b4bc9896cf8cb40bc555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Man/Glasses.mat using Guid(74627e308ce8b4bc9896cf8cb40bc555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9013d8fc54cc9d9a1e6de551f3c1e05') in 0.0078312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MinimalPolyFree/Prefabs/Hair/MP_Hair_Type1_CrewCut2.prefab
+  artifactKey: Guid(7264da192c7a24e42aeeaec67b19b328) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Prefabs/Hair/MP_Hair_Type1_CrewCut2.prefab using Guid(7264da192c7a24e42aeeaec67b19b328) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7504f122736a4417bcefd733f5db4277') in 0.027224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MinimalPolyFree/Materials/Woman/Mouth_Type1.mat
+  artifactKey: Guid(cb34d1a9311d648a09d76590ff773efe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Woman/Mouth_Type1.mat using Guid(cb34d1a9311d648a09d76590ff773efe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '993975ad7be47fbff3e082db1000a482') in 0.0067268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MinimalPolyFree/Textures/Hair_#573A2A.png
+  artifactKey: Guid(eef3acdc3d1404bb09c4f0f52c117b59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/Hair_#573A2A.png using Guid(eef3acdc3d1404bb09c4f0f52c117b59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fd1cd08c0e54f11b07dd5ebeb536e57') in 0.0106685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/MinimalPolyFree/Models/MP_Hair_Type1_BuzzCut2.fbx
+  artifactKey: Guid(6a27ad312aeaa4e81a92e6669db8fbfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Models/MP_Hair_Type1_BuzzCut2.fbx using Guid(6a27ad312aeaa4e81a92e6669db8fbfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '232991a804d4343dc6de1bb6f62491a3') in 0.0164125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MinimalPolyFree/Textures/MP_Male_A1_Bottoms_100_skyblue.png
+  artifactKey: Guid(86008facff3c9492bb779a6be50f1573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/MP_Male_A1_Bottoms_100_skyblue.png using Guid(86008facff3c9492bb779a6be50f1573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6850c3130f1f19f5a65d26e225a74d81') in 0.0134131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/MinimalPolyFree/Textures/MP_Female_A1_Bottoms_100_beige.png
+  artifactKey: Guid(1d385727f412948448a4cb0f9e48145e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/MP_Female_A1_Bottoms_100_beige.png using Guid(1d385727f412948448a4cb0f9e48145e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2cd4b80f9d0524d852a508bb7d57c46d') in 0.011412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/MinimalPolyFree/Animations/Stand.anim
+  artifactKey: Guid(b6c73d2fc706b4fe7856b3201908d09f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Animations/Stand.anim using Guid(b6c73d2fc706b4fe7856b3201908d09f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '866be8294b91c524eb8440d727f874fe') in 0.0244906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MinimalPolyFree/Prefabs
+  artifactKey: Guid(fe13d2375a3bd4a76a6f424df0221f2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Prefabs using Guid(fe13d2375a3bd4a76a6f424df0221f2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f553587440044e19bc6291b54ba882c8') in 0.0047619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/MinimalPolyFree/Textures/MP_Male_A1_Bottoms_100_navy.png
+  artifactKey: Guid(af7bbf1498aa246d8a9821ddcaa08625) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/MP_Male_A1_Bottoms_100_navy.png using Guid(af7bbf1498aa246d8a9821ddcaa08625) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6af46bfb678fcf4ad62b59752286f911') in 0.0136903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/MinimalPolyFree/Textures/Shoes_Type1_white.png
+  artifactKey: Guid(37be75d637f4b458f8b7e1b70a4119c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/Shoes_Type1_white.png using Guid(37be75d637f4b458f8b7e1b70a4119c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f31af36b5ec211a845a50057fc9c010') in 0.0115194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MinimalPolyFree/Models/Glasses1.fbx
+  artifactKey: Guid(f3702fec9c23b401b98e4c4d07761206) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Models/Glasses1.fbx using Guid(f3702fec9c23b401b98e4c4d07761206) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bee8a974ea949054c2a4169d57b3ed7d') in 0.0118748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MinimalPolyFree/Models/MP_Hair_Type1_F_Chignon1.fbx
+  artifactKey: Guid(23ce9b33ad95943f1b399c637bd12cc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Models/MP_Hair_Type1_F_Chignon1.fbx using Guid(23ce9b33ad95943f1b399c637bd12cc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afc36738f2d93f13d4ed4b190952d9cd') in 0.0120056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MinimalPolyFree/Models/Sunglasses2.fbx
+  artifactKey: Guid(370b5e78bebda40c58edbb5734ad8b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Models/Sunglasses2.fbx using Guid(370b5e78bebda40c58edbb5734ad8b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '244e766e09a26246bea81a3822907e41') in 0.0096468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MinimalPolyFree/Models/MP_Eyes_Type1.fbx
+  artifactKey: Guid(20e2e09f4d8cb4a0bba5713f5873d2cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Models/MP_Eyes_Type1.fbx using Guid(20e2e09f4d8cb4a0bba5713f5873d2cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43c7c2be2d21b5d8317efd4fdad3239d') in 0.0444437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MinimalPolyFree/Textures/MP_Female_A1_Tops_Jacket1_yellow.png
+  artifactKey: Guid(6faeef5ed70574d12a0906db063627bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/MP_Female_A1_Tops_Jacket1_yellow.png using Guid(6faeef5ed70574d12a0906db063627bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58fe16c28d5dca24c5771988a85332a3') in 0.017039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MinimalPolyFree/Textures/Eye_Type1_M1_S2.png
+  artifactKey: Guid(be250a7b890d244c68967ce006e72a56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/Eye_Type1_M1_S2.png using Guid(be250a7b890d244c68967ce006e72a56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97ffe61ca449a9089a7cec4795872154') in 0.0170962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/MinimalPolyFree/Textures
+  artifactKey: Guid(41a21e4e66de64333a6ec2dbfdd66eaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures using Guid(41a21e4e66de64333a6ec2dbfdd66eaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abb54c1b360576753b37a82e2e33123a') in 0.0073501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/MinimalPolyFree/Textures/Shoes_Type1_gray.png
+  artifactKey: Guid(f9901cedd7de5479cbcfd8ab086d5ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/Shoes_Type1_gray.png using Guid(f9901cedd7de5479cbcfd8ab086d5ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec898dd02029ff2bc880e6c59651d789') in 0.0145855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/MinimalPolyFree/Scenes/DemoScene.unity
+  artifactKey: Guid(49c2e6c8592af455fbdb45e64dded717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Scenes/DemoScene.unity using Guid(49c2e6c8592af455fbdb45e64dded717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '720e27bac9789656ebf61b1ef30df170') in 0.0079362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/MinimalPolyFree/Textures/Hair_#9F8572.png
+  artifactKey: Guid(8a7b6b35bbd7c4406848dde53c29151f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/Hair_#9F8572.png using Guid(8a7b6b35bbd7c4406848dde53c29151f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dfbf78929a88d313c808ced43259d72') in 0.0196713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/MinimalPolyFree/Prefabs/Glasses
+  artifactKey: Guid(56af7b067adba4d82b6f1910116126c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Prefabs/Glasses using Guid(56af7b067adba4d82b6f1910116126c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '978014531385be80a16229bbb1f28636') in 0.006172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MinimalPolyFree/Materials/Glasses.mat
+  artifactKey: Guid(8422b1905e6ee4cda8e862ce96c96b09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Materials/Glasses.mat using Guid(8422b1905e6ee4cda8e862ce96c96b09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77ab64b5d7ca6f97f282e5a2f073716f') in 0.0084263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MinimalPolyFree/Scenes
+  artifactKey: Guid(e75f1a1734d914467b678d9839902e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Scenes using Guid(e75f1a1734d914467b678d9839902e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57999e7932c4fa44eedd4110fbf24b00') in 0.0060854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MinimalPolyFree/Prefabs/Hair/MP_Hair_Type1_BuzzCut2.prefab
+  artifactKey: Guid(0dd2ce04a7b434efe8c14c127621fd83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Prefabs/Hair/MP_Hair_Type1_BuzzCut2.prefab using Guid(0dd2ce04a7b434efe8c14c127621fd83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13d83a722610b7c1c9c6fa8b80652c75') in 0.0142364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MinimalPolyFree/Textures/MP_Male_A1_Tops_Jacket1_red.png
+  artifactKey: Guid(670d9910ad09747c48b67f01008d39cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MinimalPolyFree/Textures/MP_Male_A1_Tops_Jacket1_red.png using Guid(670d9910ad09747c48b67f01008d39cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '028e4fb4dfc6926105b72fd38623206d') in 0.0222787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
