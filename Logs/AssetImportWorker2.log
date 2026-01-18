@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 15770 MB
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 40723 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lye Hong Ann" at "2026-01-18T06:05:54.1426423Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aldri" at "2026-01-09T08:49:35.2211648Z"
-Date: 2026-01-09T08:49:35Z
+Date: 2026-01-18T06:05:54Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
@@ -13,13 +13,13 @@ C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/aldri/Major Project
+C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59583
+1171
 -licensingIpc
-LicenseClient-aldri
+LicenseClient-Lye Hong Ann
 -job-worker-count
 7
 -background-job-worker-count
@@ -28,8 +28,8 @@ LicenseClient-aldri
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/aldri/Major Project
-C:/Users/aldri/Major Project
+Successfully changed project path to: C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project
+C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -65,16 +65,22 @@ C:/Users/aldri/Major Project
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [18240]  Target information:
+Player connection [10056]  Target information:
 
-Player connection [18240]  * "[IP] 192.168.0.1 [Port] 0 [Flags] 2 [Guid] 1586231008 [EditorId] 1586231008 [Version] 1048832 [Id] WindowsEditor(7,ImAluminium) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10056]  * "[IP] 192.168.35.1 [Port] 0 [Flags] 2 [Guid] 1832294650 [EditorId] 1832294650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18240]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1586231008 [EditorId] 1586231008 [Version] 1048832 [Id] WindowsEditor(7,ImAluminium) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10056]  * "[IP] 192.168.86.1 [Port] 0 [Flags] 2 [Guid] 1832294650 [EditorId] 1832294650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18240]  * "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 1586231008 [EditorId] 1586231008 [Version] 1048832 [Id] WindowsEditor(7,ImAluminium) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10056]  * "[IP] 192.168.225.1 [Port] 0 [Flags] 2 [Guid] 1832294650 [EditorId] 1832294650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18240] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18240] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10056]  * "[IP] 192.168.101.1 [Port] 0 [Flags] 2 [Guid] 1832294650 [EditorId] 1832294650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10056]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1832294650 [EditorId] 1832294650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10056]  * "[IP] 192.168.86.27 [Port] 0 [Flags] 2 [Guid] 1832294650 [EditorId] 1832294650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10056] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10056] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,61 +92,70 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/aldri/Major Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
-    Vendor:   ATI
-    VRAM:     7885 MB
-    Driver:   31.0.12046.27001
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6262
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003130 seconds.
-- Loaded All Assemblies, in  0.578 seconds
+Registered in 0.002135 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              71b5062b5e0a4edd80f8050ba9ea10ea
+  Correlation Id:          ad28297b263a865b2239070042b490c2
+  External correlation Id: 1263955731684281946
+  Machine Id:              d8qaINWnIOy0sUuiXn0ummexNz4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Lye Hong Ann" (connect: 0.00s, validation: 0.00s, handshake: 1.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lye Hong Ann-notifications" at "2026-01-18T06:05:55.3146137Z"
+[Licensing::Module] Licensing Background thread has ended after 1.17s
+- Loaded All Assemblies, in  0.617 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.571 seconds
-Domain Reload Profiling: 1144ms
-	BeginReloadAssembly (191ms)
+- Finished resetting the current domain, in  0.467 seconds
+Domain Reload Profiling: 1081ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (233ms)
-		LoadAssemblies (186ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (277ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (229ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (209ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (186ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (572ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (467ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (517ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (68ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,25 +164,14 @@ Domain Reload Profiling: 1144ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              3c2bd04b48474d209b1c123bbc8a3c91
-  Correlation Id:          8be5b6454b9a08a85ff9cb0f6c147233
-  External correlation Id: 3893697122225595264
-  Machine Id:              l0EhpGW4SrtGiNS3MlV682PN5Ns=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-aldri" (connect: 0.00s, validation: 0.00s, handshake: 2.48s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-aldri-notifications" at "2026-01-09T08:49:37.7095065Z"
-[Licensing::Module] Licensing Background thread has ended after 2.49s
-[Licensing::Module] Licensing is initialized (took 0.35s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 18968360284224-UnityPersXXXX
+  Id: 18968360312148-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.146 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.074 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -175,166 +179,214 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1830ms
-	BeginReloadAssembly (559ms)
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1678ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (479ms)
-		LoadAssemblies (416ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (791ms)
+		LoadAssemblies (698ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (129ms)
-			BuildScriptInfoCaches (27ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (690ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (608ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (572ms)
+		SetupLoadedEditorAssemblies (491ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (377ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3859 unused Assets / (1.0 MB). Loaded Objects now: 4442.
-Memory consumption went from 93.5 MB to 92.5 MB.
-Total: 7.381600 ms (FindLiveObjects: 0.535400 ms CreateObjectMapping: 0.210400 ms MarkObjects: 5.553200 ms  DeleteObjects: 1.081300 ms)
+Unloading 3897 unused Assets / (1.3 MB). Loaded Objects now: 4520.
+Memory consumption went from 94.2 MB to 92.9 MB.
+Total: 15.029600 ms (FindLiveObjects: 1.082900 ms CreateObjectMapping: 1.218500 ms MarkObjects: 9.617000 ms  DeleteObjects: 3.107400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 162313.733817 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/airvent.prefab
-  artifactKey: Guid(d7cd5c7975835a14cae4bcbafa34bd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/airvent.prefab using Guid(d7cd5c7975835a14cae4bcbafa34bd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dda32dd934c9018d8d037c4f89792ca0') in 0.1446493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 81439.475319 seconds.
+  path: Assets/Alteruna/Media/AlterunaPrefab On Icon.png
+  artifactKey: Guid(2195ad23cd0c8a54ea7abbf80a07b163) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Media/AlterunaPrefab On Icon.png using Guid(2195ad23cd0c8a54ea7abbf80a07b163) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8486acc23c11ce41c13f36a630ab8286') in 0.1367945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/Keyboard.prefab
-  artifactKey: Guid(ec78088b7a0003d48ac6ee3afada669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/Keyboard.prefab using Guid(ec78088b7a0003d48ac6ee3afada669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e272778cf12f1a5ee76dd8de85a79b') in 0.0219007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000029 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandPrint.cs
+  artifactKey: Guid(504ee6d8105abf343b8f4bc6dda66a31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandPrint.cs using Guid(504ee6d8105abf343b8f4bc6dda66a31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '853fc455568ae3d42884dc45ce189453') in 0.0228978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/pencil.prefab
-  artifactKey: Guid(5bce66f7433474e4ebaf06e4434835be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/pencil.prefab using Guid(5bce66f7433474e4ebaf06e4434835be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8fd1e9e33c9d8f552139ab3613a8fd') in 0.0178517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000083 seconds.
+  path: Assets/Alteruna/Scripts/Examples/ExampleRpcSerializable.cs
+  artifactKey: Guid(611eb4555b37417faddf80f06fc427c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Scripts/Examples/ExampleRpcSerializable.cs using Guid(611eb4555b37417faddf80f06fc427c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba928caefc215fe1a045d88c5ce43839') in 0.0179683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/wall.prefab
-  artifactKey: Guid(80cbb9df11318004a95e198e69e78a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/wall.prefab using Guid(80cbb9df11318004a95e198e69e78a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a78935fe58977e60334da99acf42faf') in 0.0137397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000123 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandTp.cs
+  artifactKey: Guid(3a27f7c07fb9ef04ca8d34b848fe2d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandTp.cs using Guid(3a27f7c07fb9ef04ca8d34b848fe2d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '435d6d7bc752b184616548b3ca12e15f') in 0.0159122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/security_camera.prefab
-  artifactKey: Guid(beb371209ab6caa45be5c7b336aaa6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/security_camera.prefab using Guid(beb371209ab6caa45be5c7b336aaa6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '074a9b1ea03872c1d9d1c9ca547d2c1f') in 0.0161309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000090 seconds.
+  path: Assets/Alteruna/Scripts/Examples/ExampleAttributeRpc.cs
+  artifactKey: Guid(226c6a9a18d948889af4ef166783ac5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Scripts/Examples/ExampleAttributeRpc.cs using Guid(226c6a9a18d948889af4ef166783ac5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1abb2d2001d35e7f7a491002e7b9602a') in 0.0147645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/fire_extinguisher.prefab
-  artifactKey: Guid(d5f927682928f9f4c89f2b971e51f3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/fire_extinguisher.prefab using Guid(d5f927682928f9f4c89f2b971e51f3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf68d7e8efca1c6442cc84e96ac4728c') in 0.0161091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scripts/InputManager.cs
+  artifactKey: Guid(b914e7067b63bed4db48e4e20e1920f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/InputManager.cs using Guid(b914e7067b63bed4db48e4e20e1920f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98d9dff7c9b673de29beb437730bd6eb') in 0.0171829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/desk.prefab
-  artifactKey: Guid(0e16475e464050141a1bf64d51b46d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/desk.prefab using Guid(0e16475e464050141a1bf64d51b46d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faec57f72f6b8da056f8dce55ce44cf1') in 0.0175465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 99
+  Time since last request: 0.000084 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/RoomBrowser_Back.png
+  artifactKey: Guid(da91c5f15753c6041955cb8f1c99811c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/RoomBrowser_Back.png using Guid(da91c5f15753c6041955cb8f1c99811c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2a3db9bd2a6b7287e69c1bdbe40bcb4') in 0.0352187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/password_panel.prefab
-  artifactKey: Guid(75087ca99ecc4264ab937b89c140d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/password_panel.prefab using Guid(75087ca99ecc4264ab937b89c140d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17096fe8f244ebe353ecd0ac07d43f53') in 0.0263349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000024 seconds.
+  path: Assets/Alteruna/Media/d_AlterunaPrefab On Icon.png
+  artifactKey: Guid(341bd44c9b263a443adc610a7f2b8642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Media/d_AlterunaPrefab On Icon.png using Guid(341bd44c9b263a443adc610a7f2b8642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fc819176a4e0c999a5ad2a023450ccc') in 0.0181004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/display.004.prefab
-  artifactKey: Guid(f78cb5e3a28483a41b34edc8c1b57ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/display.004.prefab using Guid(f78cb5e3a28483a41b34edc8c1b57ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa0eec9853babf236423ec9b52167e33') in 0.0123286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000033 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/Scripts/RoomBrowserSortButton.cs
+  artifactKey: Guid(82bb22d9ead931f47b8d63efac7113cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/Scripts/RoomBrowserSortButton.cs using Guid(82bb22d9ead931f47b8d63efac7113cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e0fb93c2bf7981a8ba0570fe9d98ed7') in 0.0126447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/panel.prefab
-  artifactKey: Guid(5eb59992ccf63a945806038868d7263a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/panel.prefab using Guid(5eb59992ccf63a945806038868d7263a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60342d40d85e46b3dbcc15f66daca2d8') in 0.0125211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000105 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandMove.cs
+  artifactKey: Guid(24b2c66c06308bc438e346c1ec719f99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandMove.cs using Guid(24b2c66c06308bc438e346c1ec719f99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63d1de97474c761bea08cd0178fafbaf') in 0.0159048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/display.prefab
-  artifactKey: Guid(74be82cbd3349a44d90866b7cbaed00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/display.prefab using Guid(74be82cbd3349a44d90866b7cbaed00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8c9461af1d46c958d890fc189d0cd7e') in 0.017809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000046 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandRotate.cs
+  artifactKey: Guid(8e0b08634098980448e32bcb63b97fa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandRotate.cs using Guid(8e0b08634098980448e32bcb63b97fa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4582e1dae3c0ccdfa80cc871cad7e63') in 0.0140229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Alteruna
+  artifactKey: Guid(48bc9a8b8bbd54644bbe69f5716d8043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna using Guid(48bc9a8b8bbd54644bbe69f5716d8043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a87a4971b113d4549f7c510838df6ba') in 0.0138629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Alteruna/Scripts/EnsureEventSystem.cs
+  artifactKey: Guid(141f9b84258db0d48bd81c5e03977f70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Scripts/EnsureEventSystem.cs using Guid(141f9b84258db0d48bd81c5e03977f70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5992ff9ac7e51cb9daf8506eacb1ad28') in 0.0145869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandScale.cs
+  artifactKey: Guid(fb1ce0de3b3aa8f42b64ca92bf04b34d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandScale.cs using Guid(fb1ce0de3b3aa8f42b64ca92bf04b34d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e1e67fc8f702f0b002ebe50d05cb0a7') in 0.015859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Alteruna/Prefabs/RoomMenu/Room Menu.prefab
+  artifactKey: Guid(5a577542a281e0a448dc3b383023e1f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomMenu/Room Menu.prefab using Guid(5a577542a281e0a448dc3b383023e1f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90aa7456c4b75a47db9aab15720ffbb5') in 0.0907136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/Scripts
+  artifactKey: Guid(c39e689ab7a29d74498d8ba4c5f00502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/Scripts using Guid(c39e689ab7a29d74498d8ba4c5f00502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a0b5bff9837476717a5bd71a4607ede') in 0.0138833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Alteruna/Plugins
+  artifactKey: Guid(5eae847ce7a7a624fac658442de0e936) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Plugins using Guid(5eae847ce7a7a624fac658442de0e936) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f81a5b1998c84a3db9667801102667b') in 0.0133381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandCreateRoom.cs
+  artifactKey: Guid(56aa9507285f06549ab7f3a29dd7fbd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandCreateRoom.cs using Guid(56aa9507285f06549ab7f3a29dd7fbd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7947ba1f9c2dec4ba64ca3358a51a5e') in 0.0153814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Alteruna/Plugins/Alteruna.Trinity.xml
+  artifactKey: Guid(63cb4315fdcff3843bf0265c9b63f17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Plugins/Alteruna.Trinity.xml using Guid(63cb4315fdcff3843bf0265c9b63f17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56c9a60c6e4fc86816c5b35500e2577e') in 0.0160184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/RoomBrowser_Refresh.png
+  artifactKey: Guid(b5cee940ee61623479638f9abf957725) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/RoomBrowser_Refresh.png using Guid(b5cee940ee61623479638f9abf957725) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e0a724c4ff32bda6a00196d2f6327d4') in 0.0302664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/wall_door.prefab
-  artifactKey: Guid(ba08e2e36c3186d47bb5bff407ef271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/wall_door.prefab using Guid(ba08e2e36c3186d47bb5bff407ef271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1636bec760ca37c167c78aaa064b518') in 0.0145595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/pencilbox.prefab
-  artifactKey: Guid(74706bb29dd2f754f8d23c7af6e47e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/pencilbox.prefab using Guid(74706bb29dd2f754f8d23c7af6e47e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f97fe40cec8794f8be91d683c964a2') in 0.0161425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/mouse.prefab
-  artifactKey: Guid(845ec86c78d2a2c448e66e3b0e30e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/mouse.prefab using Guid(845ec86c78d2a2c448e66e3b0e30e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7bf107050f31eadf9d22d1c25b7f0a') in 0.016182 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/iPoly3D/Server Room/Prefabs/display.001.prefab
-  artifactKey: Guid(78812a0a8603a5a4fbd5cb535a9178cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Server Room/Prefabs/display.001.prefab using Guid(78812a0a8603a5a4fbd5cb535a9178cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e6974a2d1aee4db2faed0e4c5c43c06') in 0.0142151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  path: Assets/Alteruna/Prefabs/RoomBrowser/Scripts/PasswordPopup.cs
+  artifactKey: Guid(483ad502ff0c2b64699741c825218c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/Scripts/PasswordPopup.cs using Guid(483ad502ff0c2b64699741c825218c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c25fbf1d6607770a6db61091242d2e4') in 0.0163319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

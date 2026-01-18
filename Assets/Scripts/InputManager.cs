@@ -1,41 +1,58 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Alteruna;
 
+[RequireComponent(typeof(PlayerMovement))]
+[RequireComponent(typeof(PlayerLook))]
+[RequireComponent(typeof(Alteruna.Avatar))]
 public class InputManager : MonoBehaviour
 {
     private PlayerInput playerInput;
     private PlayerInput.OnFootActions onFoot;
 
-    private Vector2 movementInput;
-
-    private PlayerMotor motor;
+    private PlayerMovement movement;
     private PlayerLook look;
+    private Alteruna.Avatar avatar;
 
     void Awake()
     {
+        movement = GetComponent<PlayerMovement>();
+        look = GetComponent<PlayerLook>();
+        avatar = GetComponent<Alteruna.Avatar>();
+
         playerInput = new PlayerInput();
         onFoot = playerInput.OnFoot;
 
-        motor = GetComponent<PlayerMotor>();
-        look = GetComponent<PlayerLook>();
+        // Jump
+        onFoot.Jump.performed += _ =>
+        {
+            if (avatar.IsMe)
+                movement.Jump();
+        };
 
-        // Subscribe to jump input
-        onFoot.Jump.performed += ctx => motor.Jump();
+        // Shift-lock toggle
+        onFoot.ShiftLock.performed += _ =>
+        {
+            if (!avatar.IsMe) return;
+
+            look.shiftLocked = !look.shiftLocked;
+            if (look.shiftLocked) look.LockCursor();
+            else look.UnlockCursor();
+        };
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Movement (CharacterController → Update)
-        movementInput = onFoot.Movement.ReadValue<Vector2>();
-        motor.ProcessMove(movementInput);
+        if (!avatar.IsMe) return;
+
+        Vector2 input = onFoot.Movement.ReadValue<Vector2>();
+        movement.SetMoveInput(input);
     }
 
     void LateUpdate()
     {
-        // Camera look
+        if (!avatar.IsMe) return;
+
         look.ProcessLook(onFoot.Look.ReadValue<Vector2>());
     }
 
