@@ -1,29 +1,53 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Alteruna;
 
 public class PlayerLook : MonoBehaviour
 {
     public Camera cam;
 
-    private float xRotation = 0f;
-
     public float xSensitivity = 30f;
     public float ySensitivity = 30f;
+    public bool shiftLocked = true;
+
+    private float xRotation = 0f;
+    private Alteruna.Avatar avatar;
+
+    void Start()
+    {
+        avatar = GetComponent<Alteruna.Avatar>();
+
+        if (!avatar.IsMe)
+        {
+            if (cam != null) cam.gameObject.SetActive(false);
+            enabled = false;
+        }
+    }
 
     public void ProcessLook(Vector2 input)
     {
-        float mouseX = input.x;
-        float mouseY = input.y;
+        if (!avatar.IsMe || !shiftLocked) return;
 
-        // Calculate camera rotation for looking up and down
-        xRotation -= (mouseY * Time.deltaTime) * ySensitivity;
+        float mouseX = input.x * xSensitivity * Time.deltaTime;
+        float mouseY = input.y * ySensitivity * Time.deltaTime;
+
+        xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -80f, 80f);
 
-        // Apply this to our camera transform
-        cam.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        if (cam != null)
+            cam.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
-        // Rotate player to look left and right
-        transform.Rotate(Vector3.up * (mouseX * Time.deltaTime) * xSensitivity);
+        transform.Rotate(Vector3.up * mouseX);
+    }
+
+    public void LockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    public void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
