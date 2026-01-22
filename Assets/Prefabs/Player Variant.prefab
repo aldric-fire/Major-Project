@@ -117,6 +117,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7494697848879171382, guid: af1e225e35c03f149a980acc3bb58abf, type: 3}
       insertIndex: -1
       addedObject: {fileID: -5420967625705777605}
+    - targetCorrespondingSourceObject: {fileID: 7494697848879171382, guid: af1e225e35c03f149a980acc3bb58abf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5976765812635613585}
   m_SourcePrefab: {fileID: 100100000, guid: af1e225e35c03f149a980acc3bb58abf, type: 3}
 --- !u!1 &8383095546365552489 stripped
 GameObject:
@@ -178,7 +181,7 @@ MonoBehaviour:
   UseGlobalPosition: 0
   OnlySyncFromRoomOwner: 0
   refreshRate: 30
-  SyncedAxes: 63
+  SyncedAxes: 23
 --- !u!54 &-8425571819371863337
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -255,6 +258,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b914e7067b63bed4db48e4e20e1920f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManager
+--- !u!114 &-5976765812635613585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383095546365552489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82e84719d1f3114fbc9155a2e722c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RemoteSmoothing
+  positionSmoothTime: 0.1
+  rotationSmoothTime: 0.1
 --- !u!20 &9136763462406687014 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 7104554796548368761, guid: af1e225e35c03f149a980acc3bb58abf, type: 3}

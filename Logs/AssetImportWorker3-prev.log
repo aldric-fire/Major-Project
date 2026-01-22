@@ -1,0 +1,362 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 40723 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lye Hong Ann" at "2026-01-18T06:05:54.1352903Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-01-18T06:05:54Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+1171
+-licensingIpc
+LicenseClient-Lye Hong Ann
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project
+C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [5744]  Target information:
+
+Player connection [5744]  * "[IP] 192.168.35.1 [Port] 0 [Flags] 2 [Guid] 2665025613 [EditorId] 2665025613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5744]  * "[IP] 192.168.86.1 [Port] 0 [Flags] 2 [Guid] 2665025613 [EditorId] 2665025613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5744]  * "[IP] 192.168.225.1 [Port] 0 [Flags] 2 [Guid] 2665025613 [EditorId] 2665025613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5744]  * "[IP] 192.168.101.1 [Port] 0 [Flags] 2 [Guid] 2665025613 [EditorId] 2665025613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5744]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2665025613 [EditorId] 2665025613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5744]  * "[IP] 192.168.86.27 [Port] 0 [Flags] 2 [Guid] 2665025613 [EditorId] 2665025613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VO9RTEO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5744] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5744] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lye Hong Ann/Documents/TP Stuff/Major-Project/Major-Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6262
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002919 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              1afaa15963614b72ad88df29b17d9f43
+  Correlation Id:          ad28297b263a865b2239070042b490c2
+  External correlation Id: 1330543108875652755
+  Machine Id:              d8qaINWnIOy0sUuiXn0ummexNz4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Lye Hong Ann" (connect: 0.00s, validation: 0.00s, handshake: 1.15s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lye Hong Ann-notifications" at "2026-01-18T06:05:55.2842931Z"
+[Licensing::Module] Licensing Background thread has ended after 1.15s
+- Loaded All Assemblies, in  0.618 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 1081ms
+	BeginReloadAssembly (281ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (181ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968360312148-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.101 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1685ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (832ms)
+		LoadAssemblies (729ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3897 unused Assets / (1.3 MB). Loaded Objects now: 4520.
+Memory consumption went from 94.2 MB to 92.9 MB.
+Total: 13.790900 ms (FindLiveObjects: 0.714900 ms CreateObjectMapping: 1.163800 ms MarkObjects: 9.803500 ms  DeleteObjects: 2.106300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 81439.456194 seconds.
+  path: Assets/Alteruna/Plugins/Alteruna.Trinity.dll
+  artifactKey: Guid(0ae8d181602a00248a82f64a684a1c88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Plugins/Alteruna.Trinity.dll using Guid(0ae8d181602a00248a82f64a684a1c88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3d47c2327b3cf6b48e88a438d8759e0') in 0.1133065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Alteruna/Scripts/SingleClientEvent.cs
+  artifactKey: Guid(62c24ee4f44494c489c8082dbf895dcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Scripts/SingleClientEvent.cs using Guid(62c24ee4f44494c489c8082dbf895dcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da3c2609d2e91c3691ae1bc9668a698d') in 0.0208278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/RoomBrowser_Lock.png
+  artifactKey: Guid(cd84482b134c4404eaa7082f70ca1e06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/RoomBrowser_Lock.png using Guid(cd84482b134c4404eaa7082f70ca1e06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd290bcf431523e8ba5b36ef8e5fd8320') in 0.0727258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/Scripts/CustomRoomInfo.cs
+  artifactKey: Guid(fa00d9c3e723940489c4511b2119e145) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/Scripts/CustomRoomInfo.cs using Guid(fa00d9c3e723940489c4511b2119e145) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2afd9e4ea50c82f77f7f284c396e77b') in 0.0149138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandLoadScene.cs
+  artifactKey: Guid(10f962e66488dbf4d9a76cef395dcd9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandLoadScene.cs using Guid(10f962e66488dbf4d9a76cef395dcd9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71797a058a224052f0c7e5d7d7d1c140') in 0.0157099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Alteruna/Media/d_AlterunaPrefab Icon.png
+  artifactKey: Guid(93822126efece2f41a6cd12401ef35b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Media/d_AlterunaPrefab Icon.png using Guid(93822126efece2f41a6cd12401ef35b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '678dcc27b04bcaa5e5dad513021684e1') in 0.0183394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Alteruna/Prefabs/RoomMenu/RoomMenu.cs
+  artifactKey: Guid(9687cce4b622fd84ca9f17fcef8e74c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomMenu/RoomMenu.cs using Guid(9687cce4b622fd84ca9f17fcef8e74c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f14c51cfc52a7fc516960a5271f6448') in 0.0141592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Alteruna/Media
+  artifactKey: Guid(e5edb6975372089489a2c077c69f85ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Media using Guid(e5edb6975372089489a2c077c69f85ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75ee20fd5304159b83562723410a7b06') in 0.0130046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/ITextChatCommand.cs
+  artifactKey: Guid(13abee7d09dae7a47b6de4873e3365ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/ITextChatCommand.cs using Guid(13abee7d09dae7a47b6de4873e3365ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c77b55069037d0a0c0a0764c5680121') in 0.0141741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/Scripts/BaseRoomBrowser.cs
+  artifactKey: Guid(baf7984d079cf8646a691c6cc4634702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/Scripts/BaseRoomBrowser.cs using Guid(baf7984d079cf8646a691c6cc4634702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22d3dd844cce61e898b6241aa5f580a5') in 0.0147864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/Scripts/RoomBrowserRow.cs
+  artifactKey: Guid(24ce96bf72c7ea24b96e618bb6df7ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/Scripts/RoomBrowserRow.cs using Guid(24ce96bf72c7ea24b96e618bb6df7ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '753bc8c4f99db627c52db02cc5fd7ae0') in 0.0138808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Alteruna/Media/Alteruna Script Icon.png
+  artifactKey: Guid(d7936c1eea300084aaf0b532dc762b1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Media/Alteruna Script Icon.png using Guid(d7936c1eea300084aaf0b532dc762b1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2caf9c804bd9ec6f7edbba9e2e3a95cb') in 0.0284707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Alteruna/Media/AlterunaAvatar Icon@64.png
+  artifactKey: Guid(6b7c7645d65ac124796ce18ccb64b4f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Media/AlterunaAvatar Icon@64.png using Guid(6b7c7645d65ac124796ce18ccb64b4f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e98e4416afa8f526337de269620c3e26') in 0.032412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Alteruna/Prefabs/RoomBrowser/Room Browser.prefab
+  artifactKey: Guid(3312ff21d3ed3374190a954c6a5c7185) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/RoomBrowser/Room Browser.prefab using Guid(3312ff21d3ed3374190a954c6a5c7185) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb5054b39233c2f7b232fec4b63f0bea') in 0.1500865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 731
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Alteruna/Prefabs
+  artifactKey: Guid(dbe42eb2c065bb34dac8f5418c19af76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs using Guid(dbe42eb2c065bb34dac8f5418c19af76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b5faa2e926804fa62444fca73ef7d8a') in 0.0210221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandLeaveRoom.cs
+  artifactKey: Guid(af81fda6a1c702e41b7c6fe3dc1470d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat/TextChatCommands/CommandLeaveRoom.cs using Guid(af81fda6a1c702e41b7c6fe3dc1470d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7eb2914672b6ed9186b138715157f42') in 0.0176489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Alteruna/Prefabs/TextChat
+  artifactKey: Guid(eeecced8c8f3430409249abf8ff0ab9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alteruna/Prefabs/TextChat using Guid(eeecced8c8f3430409249abf8ff0ab9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05e830d270b668c4747d6e75fabb7c49') in 0.0133208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
