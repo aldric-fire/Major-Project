@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private Alteruna.Avatar avatar;
 
-    [Header("Movement")]
     public float speed = 6f;
     public float jumpForce = 5f;
 
@@ -22,10 +21,16 @@ public class PlayerMovement : MonoBehaviour
 
         rb.freezeRotation = true;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
-        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
 
-        if (!avatar.IsMe)
-            enabled = false;
+        // Handle local vs remote
+        if (avatar.IsMe)
+        {
+            rb.isKinematic = false; // local player moves via Rigidbody
+        }
+        else
+        {
+            rb.isKinematic = true;  // remote players follow network only
+        }
     }
 
     // Called by InputManager
@@ -40,15 +45,14 @@ public class PlayerMovement : MonoBehaviour
 
         // Movement
         Vector3 move = (transform.right * moveInput.x + transform.forward * moveInput.y).normalized;
-        rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
+        Vector3 targetPos = rb.position + move * speed * Time.fixedDeltaTime;
+        rb.MovePosition(targetPos); // horizontal movemen
     }
 
     public void Jump()
     {
-        if (!avatar.IsMe) return;
-        if (!isGrounded) return;
+        if (!avatar.IsMe || !isGrounded) return;
 
-        // reset vertical velocity for consistent jump
         Vector3 vel = rb.linearVelocity;
         vel.y = 0f;
         rb.linearVelocity = vel;

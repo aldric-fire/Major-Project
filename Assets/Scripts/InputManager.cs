@@ -7,7 +7,7 @@ using Alteruna;
 [RequireComponent(typeof(Alteruna.Avatar))]
 public class InputManager : MonoBehaviour
 {
-    private PlayerInput playerInput;
+    private PlayerInput input;
     private PlayerInput.OnFootActions onFoot;
 
     private PlayerMovement movement;
@@ -20,17 +20,15 @@ public class InputManager : MonoBehaviour
         look = GetComponent<PlayerLook>();
         avatar = GetComponent<Alteruna.Avatar>();
 
-        playerInput = new PlayerInput();
-        onFoot = playerInput.OnFoot;
+        input = new PlayerInput();
+        onFoot = input.OnFoot;
 
-        // Jump
         onFoot.Jump.performed += _ =>
         {
             if (avatar.IsMe)
                 movement.Jump();
         };
 
-        // Shift-lock toggle
         onFoot.ShiftLock.performed += _ =>
         {
             if (!avatar.IsMe) return;
@@ -45,15 +43,11 @@ public class InputManager : MonoBehaviour
     {
         if (!avatar.IsMe) return;
 
-        Vector2 input = onFoot.Movement.ReadValue<Vector2>();
-        movement.SetMoveInput(input);
-    }
+        Vector2 moveInput = onFoot.Movement.ReadValue<Vector2>();
+        movement.SetMoveInput(moveInput);
 
-    void LateUpdate()
-    {
-        if (!avatar.IsMe) return;
-
-        look.ProcessLook(onFoot.Look.ReadValue<Vector2>());
+        Vector2 lookInput = onFoot.Look.ReadValue<Vector2>();
+        look.Look(lookInput);
     }
 
     private void OnEnable()
