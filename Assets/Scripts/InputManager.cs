@@ -52,11 +52,13 @@ public class InputManager : MonoBehaviour
 
     private void OnEnable()
     {
-        onFoot.Enable();
+        if (onFoot != null)
+            onFoot.Enable();
     }
 
     private void OnDisable()
     {
-        onFoot.Disable();
+        if (onFoot != null)
+            onFoot.Disable();
     }
 }
