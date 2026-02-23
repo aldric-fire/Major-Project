@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
         if (RoomMenuPanel != null) RoomMenuPanel.SetActive(false);
         if (RoomMenuBackground != null) RoomMenuBackground.SetActive(false);
 
-        multiplayer = FindObjectOfType<Multiplayer>();
+        multiplayer = FindFirstObjectByType<Multiplayer>();
         if (multiplayer == null)
         {
             Debug.LogError("UIManager: No Multiplayer object found in scene!");
