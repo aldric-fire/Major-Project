@@ -54,10 +54,7 @@ public class PhishingStation : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        if (challengeData == null) return false;
-
-        // Can't interact if already completed
-        return !ChallengeManager.Instance?.IsChallengeCompleted(challengeData.challengeId) ?? true;
+        return challengeData != null;
     }
 
     private void UpdateVisualState()

@@ -92,9 +92,9 @@ public class ChallengeManager : MonoBehaviour
     /// </summary>
     public void StartChallenge(ChallengeData data, InteractionController playerController)
     {
-        if (data == null || IsChallengeCompleted(data.challengeId))
+        if (data == null)
         {
-            Debug.LogWarning($"ChallengeManager: Challenge '{data?.challengeId}' is null or already completed.");
+            Debug.LogWarning("ChallengeManager: Challenge data is null.");
             return;
         }
 
@@ -199,8 +199,19 @@ public class ChallengeManager : MonoBehaviour
         return null;
     }
 
+    [Header("UI Panel References (drag disabled panels here)")]
+    [Tooltip("Assign all ChallengeUIBase panels here so they can be found even when disabled.")]
+    public List<ChallengeUIBase> uiPanels = new List<ChallengeUIBase>();
+
     private ChallengeUIBase FindUIForType(ChallengeType type)
     {
+        // First check the manually assigned panels
+        foreach (var ui in uiPanels)
+        {
+            if (ui != null && ui.HandledType == type) return ui;
+        }
+
+        // Fallback: search active objects in scene
         ChallengeUIBase[] allUIs = FindObjectsByType<ChallengeUIBase>(FindObjectsSortMode.None);
         foreach (var ui in allUIs)
         {

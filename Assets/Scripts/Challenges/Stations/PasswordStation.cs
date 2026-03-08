@@ -46,8 +46,7 @@ public class PasswordStation : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        if (challengeData == null) return false;
-        return !ChallengeManager.Instance?.IsChallengeCompleted(challengeData.challengeId) ?? true;
+        return challengeData != null;
     }
 
     private void UpdateVisualState()

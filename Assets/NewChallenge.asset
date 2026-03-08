@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41efd3a8d3679a34abb3d50a57175293, type: 3}
+  m_Name: NewChallenge
+  m_EditorClassIdentifier: Assembly-CSharp::ChallengeData
+  challengeId: phishing_01
+  title: 'Suspicious Email '
+  description: You stumble across a suspicious email
+  challengeType: 0
+  difficultyTier: 1
+  options:
+  - text: 'Click the "Verify Now" button Immediately '
+    isCorrect: 0
+    feedbackNarrative: You acted under pressure without verifying the sender's authenticity.
+      The website was a credential harvesting page. Your login details have been
+      compromised. Always validate suspicious emails before interacting with embedded
+      links.
+  - text: Hover over the link to inspect the URL before clicking
+    isCorrect: 1
+    feedbackNarrative: You inspected the hyperlink and noticed the domain does not
+      match the official institution website. Hovering over links before clicking
+      is a strong defensive habit against phishing attacks.
+  - text: Check the sender's email domain carefully
+    isCorrect: 1
+    feedbackNarrative: The sender domain "tp-studentverify.com" is not an official
+      institutional domain. Attackers often register lookalike domains to impersonate
+      legitimate organizations. Domain verification is a critical detection technique.
+  - text: Ignore the email completely
+    isCorrect: 1
+    feedbackNarrative: While you avoided interacting with a phishing email, ignoring
+      potential security alerts is not ideal. The safest action would be to verify
+      the email through official channels or report it.
+  - text: Forward the email to official IT Security team
+    isCorrect: 1
+    feedbackNarrative: Excellent decisions. Reporting suspected phishing attempts
+      help protect the wider prganization. Security teams rely on early reporting
+      to block malicious domains to prevent further compromise.
+  - text: Reply to the email asking if it is legitimate
+    isCorrect: 0
+    feedbackNarrative: Replying confirms to the attacker that your email address
+      is active, increasing your risk of future targeted attacks. Never engage directly
+      with suspicious senders.
+  emails:
+  - senderName: Temasek Polytechnic IT Helpdesk
+    senderAddress: support@tp-studentverify.com
+    subject: 'URGENT: Student Portal Access Suspended'
+    body: 'Dear Student,
+
+
+      We detected multiple suspicious login attempts on
+      your student portal account from an overseas IP address.
+
+      For security
+      reasons, your access has been temporarily suspended.
+
+      You must verify
+      your identity within 2 hours to avoid permanent account deactivation before
+      the examination release window.
+
+
+      Click the link below to restore access
+      immediately:
+
+      https://tp-studentverify.com/secure-login
+
+
+      Failure
+      to comply may result in loss of exam access privileges.
+
+
+      IT Helpdesk
+
+      Temasek
+      Polytechnic'
+    isPhishing: 1
+    phishingClues: "- Sender domain does not match official institution domain\n-
+      Urgency and time pressure (\u201Cwithin 2 hours\u201D)\n- Threat of severe
+      consequence (exam access loss)\n- Generic greeting (\u201CDear Student\u201D)\n-
+      External link domain mismatch"
+  consequenceNarrative: You clicked the verification link and entered your login
+    credentials. The website was a spoofed credential harvesting page controlled
+    by attackers. Within minutes, your real account password was changed. The attacker
+    accessed your student records and attempted lateral access to other institutional
+    systems.
+  consequenceType: 0
+  debriefText: "This email demonstrates classic phishing techniques:\n\n- Domain
+    Spoofing \u2013 Attackers register lookalike domains to mimic legitimate organizations.\n-
+    Artificial Urgency \u2013 Time pressure reduces rational decision-making.\n-
+    Authority Impersonation \u2013 Pretending to be IT support increases compliance.\n-
+    Credential Harvesting \u2013 Fake login portals capture usernames and passwords.\n\nBest
+    Practice:\n\n- Never click embedded links in urgent emails.\n- Manually navigate
+    to the official website instead.\n- Verify sender domains carefully.\n- Report
+    suspicious emails to the security team."
+  realWorldStat: According to the Cyber Security Agency of Singapore, phishing remains
+    one of the top reported cybercrimes in Singapore, with thousands of cases annually
+    involving impersonation of trusted institutions and credential theft.

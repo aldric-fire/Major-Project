@@ -34,8 +34,7 @@ public class SocialEngineeringNPC : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        if (challengeData == null) return false;
-        return !ChallengeManager.Instance?.IsChallengeCompleted(challengeData.challengeId) ?? true;
+        return challengeData != null;
     }
 
     void Update()

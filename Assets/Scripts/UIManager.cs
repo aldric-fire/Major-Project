@@ -72,6 +72,9 @@ public class UIManager : MonoBehaviour
     {
         if (RoomMenuPanel != null) RoomMenuPanel.SetActive(false);
         if (RoomMenuBackground != null) RoomMenuBackground.SetActive(false);
+
+        // Show hearts now that the player is in the game
+        HeartsSystem.Instance?.Show();
     }
 
     public void LeaveRoomAndShowLobby()
@@ -87,7 +90,27 @@ public class UIManager : MonoBehaviour
 
         // Hide gameplay panels when returning to lobby
         SetGameplayPanelsActive(false);
+        HeartsSystem.Instance?.Hide();
         hasJoinedRoom = false;
+    }
+
+    /// <summary>
+    /// Called when the player runs out of hearts. Hides all gameplay UI and returns to the Start Screen.
+    /// </summary>
+    public void GameOver()
+    {
+        SetGameplayPanelsActive(false);
+        HeartsSystem.Instance?.Hide();
+
+        if (RoomMenuPanel != null) RoomMenuPanel.SetActive(false);
+        if (RoomMenuBackground != null) RoomMenuBackground.SetActive(false);
+        if (StartScreenPanel != null) StartScreenPanel.SetActive(true);
+
+        hasJoinedRoom = false;
+
+        // Unlock cursor so the player can interact with the start screen
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     /// <summary>
